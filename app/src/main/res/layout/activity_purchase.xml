@@ -86,8 +86,7 @@
         android:layout_alignBottom="@+id/textView4"
         android:layout_alignRight="@+id/carPriceEditText"
         android:layout_alignEnd="@+id/carPriceEditText"
-        android:textSize="@dimen/abc_text_size_small_material"
-        android:hint="0.00" />
+        android:textSize="@dimen/abc_text_size_small_material" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -131,5 +130,7 @@
         android:id="@+id/loanReportButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/loan_report_button_text" />
+        android:text="@string/loan_report_button_text"
+        android:layout_marginBottom="20dp"
+        android:onClick="activateLoanReport" />
 </RelativeLayout>

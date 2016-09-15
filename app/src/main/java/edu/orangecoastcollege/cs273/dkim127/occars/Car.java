@@ -7,27 +7,27 @@ public class Car
     private int mLoanTerm;
     private static final double TAX_RATE = 0.08;
 
-    public void calculateBorrowedAmount()
+    public double calculateBorrowedAmount()
     {
 
     }
 
-    public void calculateInterestAmount()
+    public double calculateInterestAmount()
     {
 
     }
 
-    public void calculateMonthlyPayment()
+    public double calculateMonthlyPayment()
     {
 
     }
 
-    public void calculateTaxAmount()
+    public double calculateTaxAmount()
     {
 
     }
 
-    public void calculateTotalCost()
+    public double calculateTotalCost()
     {
 
     }
